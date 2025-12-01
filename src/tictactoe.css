@@ -1,0 +1,42 @@
+body
+{
+  background-image: url("https://freevector-images.s3.amazonaws.com/uploads/vector/preview/46316/vecteezy_abstract_playfull_background_DP0620.jpg");
+  background-size: cover;
+  color: white;
+
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.boxes
+{
+  display: flex;
+  height: 481px;
+  width: 481px;
+  flex-wrap: wrap;
+  gap: 0px;
+  background-color: transparent;
+  border: 5px solid;
+  padding: 0px;
+  font-size: 130px;
+}
+.box
+{
+  height: 156px;
+  width: 157px;
+  border: 2px solid gray;
+  text-align: center;
+  color: white;
+}
+.btnrst
+{
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, yellow ,white);
+}
